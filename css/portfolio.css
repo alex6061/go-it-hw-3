@@ -1,12 +1,11 @@
-h1,h2,h3,h4,h5,h6 {margin: 0 auto;padding: 0;}
+body,p,ul,h1,h2,h3,h4,h5,h6,button{margin: 0 auto;padding: 0}
 li {list-style: none;}
 a{text-decoration: none;}
-p {margin: 0;}
-body {margin: 0;padding: 0;}
-ul {margin: 0 auto;padding: 0;}
+
+
 
 .container {
-    width: 1170px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -33,9 +32,7 @@ header {
     border-bottom: 1px solid #ECECEC;
 }
 
-nav {
-    display: inline-block;
-}
+
 
 .header_logo {
     float: left;
@@ -63,15 +60,22 @@ nav {
     overflow: hidden;
 }
 
+.header_contacts{
+    display: flex;
+    gap: 50px;
+}
+
 .header_contacts {
     float: right;
     margin: 33px 0 25px 93px;
 }
 
-.header_contacts li {
-    display: inline-block;
+.header_nav {
+    display: flex;
     margin-right: 50px;
+
 }
+
 
 .header_contacts li a {
     text-decoration: none;
@@ -94,14 +98,10 @@ nav {
 }
 
 .tel {
+    display: flex;
+    gap: 50px;
     margin: 33px 0 24px 200px;
     float: right;
-    display: inline-block;
-}
-
-.tel li {
-    display: inline-block;
-    margin-right: 50px;
 }
 
 .tel a {
@@ -133,11 +133,9 @@ main {
 .choice {
     display: flex;
     justify-content: center;
+    gap: 8px;
 }
 
-.choice li {
-    margin-left: 8px;
-}
 
 .choice  button {
     border: none;
@@ -174,7 +172,7 @@ main {
 }
 
 .card li {
-    border: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
 }
 
 h2 {

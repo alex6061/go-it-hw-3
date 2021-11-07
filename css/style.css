@@ -9,8 +9,12 @@ ul {margin: 0 auto;padding: 0;}
 p {color: #757575;}
 
 .container {
-    width: 1170px;
+    width: 1200px;
     margin: 0 auto;
+}
+
+.section {
+    padding: 94px 0 94px;
 }
 
 @font-face {
@@ -68,12 +72,13 @@ nav {
     margin: 33px 0 25px 93px;
 }
 
-.header_contacts li {
-    display: inline-block;
-    margin-right: 50px;
+.header_contacts {
+    display: flex;
+    flex-direction: row;
 }
 
 .header_contacts li a {
+    margin-right: 50px;
     text-decoration: none;
     font-family: 'Roboto',Arial,sans-serif;
     font-weight: 500;
@@ -98,8 +103,11 @@ nav {
     display: inline-block;
 }
 
+.tel {
+    display: flex;
+}
+
 .tel li {
-    display: inline-block;
     margin-right: 50px;
 }
 
@@ -127,7 +135,7 @@ nav {
 
 /*====section_what_we_do===*/
 
-.first_section {
+.header {
     display: inline-block;
     height: 100vh;
     width: 100%;
@@ -178,15 +186,22 @@ h1 {
 }
 
 /*===section_team===*/
+
+.team {
+    background: #F5F4FA;
+}
+
 .wrapper {
     padding: 94px 0 94px;
 }
 
 .wrapper_ul {
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-gap:30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
 }
+
+
 
 h3{
     padding-bottom: 10px;
@@ -227,9 +242,9 @@ h2 {
 }
 
 .do__item {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
     padding-bottom: 94px;
 }
 
@@ -242,8 +257,8 @@ h2 {
 }
 
 .team__items {
-    display:grid ;
-    grid-template-columns: repeat(4,1fr);
+    display:flex ;
+    flex-direction: row;
     grid-gap: 30px;
 }
 
