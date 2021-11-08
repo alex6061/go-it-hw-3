@@ -251,6 +251,7 @@ h2 {
 .do__item {
     display: flex;
     justify-content: space-between;
+    gap: 30px;
 }
 
 
