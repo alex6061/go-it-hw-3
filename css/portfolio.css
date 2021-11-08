@@ -171,10 +171,16 @@ main {
 
 
 .card {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3,1fr);
-    grid-gap: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: stretch;
+    gap: 45px;
+    /*display: grid;*/
+    /*grid-template-columns: repeat(3,1fr);*/
+    /*grid-template-rows: repeat(3,1fr);*/
+    /*grid-gap: 30px;*/
 }
 
 .card_link {
