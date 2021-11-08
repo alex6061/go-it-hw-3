@@ -5,6 +5,8 @@ a{text-decoration: none;}
     box-sizing: inherit;
 }
 
+img { display: block; max-width: 100%; height: auto; }
+
 p {color: #757575;}
 
 .container {
@@ -69,11 +71,12 @@ nav {
 .header_contacts {
     float: right;
     margin: 33px 0 25px 93px;
-}
-
-.header_contacts {
     display: flex;
     flex-direction: row;
+}
+
+.studio_link:visited{
+    color: #2196F3;
 }
 
 .header_contacts li a {
@@ -134,6 +137,11 @@ nav {
 
 /*====section_what_we_do===*/
 
+.section_header {
+    padding: 200px 0 200px;
+    background: #2F303A;
+}
+
 .header {
     display: inline-block;
     height: 100vh;
@@ -141,8 +149,7 @@ nav {
     background: #2F303A;
 }
 
-h1 {
-    margin-top: 200px;
+.hero {
     margin-bottom: 30px;
     text-align: center;
     color: white;
