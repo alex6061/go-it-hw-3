@@ -185,7 +185,7 @@ main {
     border-bottom: 1px solid #EEEEEE;
 }
 
-h2 {
+.card_name {
     font-family: 'Roboto',Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
