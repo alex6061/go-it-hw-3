@@ -5,6 +5,9 @@ a{text-decoration: none;}
     box-sizing: inherit;
 }
 
+img { display: block; max-width: 100%; height: auto; }
+
+
 
 .container {
     width: 1200px;
