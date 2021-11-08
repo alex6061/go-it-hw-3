@@ -235,6 +235,10 @@ h3{
 
 /*====section_do====*/
 
+.section_do {
+    padding-bottom: 94px;
+}
+
 h2 {
 
     font-family: Roboto, Arial, sans-serif;
