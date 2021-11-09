@@ -81,12 +81,14 @@ nav {
 }
 
 .header_contacts li a {
-    text-decoration: none;
+    padding: 20px 0 20px;
+
     font-family: 'Roboto',Arial,sans-serif;
     font-weight: 500;
     font-size: 14px;
     color: #212121;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .header_contacts li a:hover{
     color: #2196F3;
@@ -112,11 +114,14 @@ nav {
 }
 
 .tel a {
-    text-decoration: none;
+    padding: 20px 0 20px;
+
     color: #757575;
     font-size: 14px;
     font-family: 'Roboto',Arial,sans-serif;
     font-weight: 500;
+
+    text-decoration: none;
 }
 
 .tel a:hover {
@@ -142,6 +147,7 @@ main {
 
 .choice {
     display: flex;
+
     justify-content: center;
     gap: 8px;
     margin-bottom: 56px;
