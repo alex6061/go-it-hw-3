@@ -42,7 +42,7 @@ nav {
 
 .header_logo {
     float: left;
-    margin: 24px 0 25px;
+    margin: 24px 93px 25px 0;
     text-decoration: none;
 }
 
@@ -67,10 +67,10 @@ nav {
 }
 
 .header_contacts {
-    float: right;
-    margin: 33px 0 25px 93px;
+    margin: 33px 0 25px;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
 }
 
 .studio_link:visited{
@@ -78,7 +78,6 @@ nav {
 }
 
 .header_contacts li a {
-    margin-right: 50px;
     text-decoration: none;
     font-family: 'Roboto',Arial,sans-serif;
     font-weight: 500;
@@ -105,10 +104,8 @@ nav {
 
 .tel {
     display: flex;
-}
-
-.tel li {
-    margin-right: 50px;
+    justify-content: space-between;
+    gap: 50px;
 }
 
 .tel a {
