@@ -1,4 +1,4 @@
-body,p,h1,h2,h3,h4,h5,h6,button{margin: 0 auto;padding: 0}
+body,ul,p,h1,h2,h3,h4,h5,h6,button{margin: 0 auto;padding: 0}
 li {list-style: none;}
 a{text-decoration: none;}
 *,*::before,*::after{box-sizing: inherit;}
@@ -186,10 +186,6 @@ main {
     align-content: space-between;
     align-items: stretch;
     gap: 45px;
-    /*display: grid;*/
-    /*grid-template-columns: repeat(3,1fr);*/
-    /*grid-template-rows: repeat(3,1fr);*/
-    /*grid-gap: 30px;*/
 }
 
 .card_link {
