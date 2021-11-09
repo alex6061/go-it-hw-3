@@ -76,7 +76,7 @@ nav {
     gap: 50px;
 }
 
-.studio_link:visited{
+.portfolio_link:visited{
     color: #2196F3;
 }
 
@@ -238,7 +238,6 @@ address {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    /*margin-bottom: 9px;*/
 }
 
 address li a{
