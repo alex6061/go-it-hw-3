@@ -310,11 +310,14 @@ footer {
     text-decoration: none;
 }
 
-address{
+address ul{
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
 }
 address li {
-    margin-bottom: 9px;
+
 }
 address li a{
     font-family: 'Roboto',Arial,sans-serif;
@@ -328,12 +331,11 @@ address li a{
     color: white;
 }
 
-
-
 .footer_tel {
     color: rgba(255, 255, 255, 0.6);
     transition: 7ms;
 }
+
 .footer_tel:hover{
     color: white;
     transition: 7ms;
