@@ -135,7 +135,7 @@ nav {
 
 .section_header {
     padding: 200px 0 200px;
-    background-image: url("/img/img-bg.jpg");
+    background: url("/img/img-bg.jpg");
 }
 
 .header {

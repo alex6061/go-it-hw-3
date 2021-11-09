@@ -200,18 +200,20 @@ main {
     border-bottom: 1px solid #EEEEEE;
 }
 
+.card_text {
+    padding: 20px 24px 54px;
+}
+
 .card_name {
     font-family: 'Roboto',Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
-    margin: 20px 24px 0;
+    margin-bottom: 4px;
     color: #212121;
-
 }
 
 .it {
     font-family: 'Roboto',Arial,sans-serif;
-    margin: 4px 24px 20px;
     font-size: 16px;
     color: #757575;
     line-height: 30px;
